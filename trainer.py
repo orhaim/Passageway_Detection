@@ -35,8 +35,8 @@ def choose_device(limit_to_cpu=False):
 
 def train(device, num_epochs, batch_size, add_text):
     # use our dataset and defined transformations
-    dataset = ObjectDataset('doors/naor/train', get_transform(train=True))
-    dataset_test = ObjectDataset('doors/naor/test', get_transform(train=False))
+    dataset = ObjectDataset('data/train', get_transform(train=True))
+    dataset_test = ObjectDataset('data/test', get_transform(train=False))
 
 
     # define training and validation data loaders
