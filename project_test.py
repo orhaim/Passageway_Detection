@@ -203,10 +203,10 @@ if __name__ == "__main__":
     # busDir = os.path.join("doors", "test", "images")
     # saveDir = os.path.join("doors", "results")
 
-    annFileNameGT = os.path.join("doors","naor", "test", "annotations.txt")
+    annFileNameGT = os.path.join("data", "test", "annotations.txt")
     myAnnFileName = os.path.join("annotations_with_loaded_model.txt")
-    busDir = os.path.join("doors","naor", "test", "images")
-    saveDir = os.path.join("doors", "naor", "results")
+    busDir = os.path.join("data", "test", "images")
+    saveDir = os.path.join("data", "results")
     elapsed = True
     os.makedirs(saveDir, exist_ok=True)
     runTest(annFileNameGT, myAnnFileName, busDir, saveDir=saveDir, elapsed=elapsed)
