@@ -66,6 +66,6 @@ def run(myAnnFileName, test_dir):
 
 if __name__ == "__main__":
     myAnnFileName = "annotations_with_loaded_model.txt"
-    test_dir = os.path.join("doors", "naor", "test", "images")
+    test_dir = os.path.join("data", "test", "images")
     run(myAnnFileName, test_dir)
     print(f"created the file {myAnnFileName}")
