@@ -8,7 +8,7 @@ Transfer learning based on  https://pytorch.org/tutorials/intermediate/torchvisi
 see colab.ipynb
 
 #### Train:
-$ python trainer.py --num_epochs 500  --train_dir data/doors/naor/train --test_dir data/doors/naor/test
+$ python trainer.py --num_epochs 500  --train_dir data/train --test_dir data/test
 
  
 The weights will be saved into saved_models folder, and model_state_dict.pt will be updated with last weight.
