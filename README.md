@@ -48,14 +48,6 @@ test_dir:
  </pre>
 
 
-#### Run on docker hints (TODO finish)
-
-1. maybe the official dockerfile for pytorch can help https://github.com/pytorch/pytorch/blob/master/docker/pytorch/Dockerfile
-2. try use the docker file attached here (was not tested yet - it may need some fixes)
-
-docker build -t image\_name . 
-
-docker run -d --name container\_name image\_name
 
 
 
